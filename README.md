@@ -4,6 +4,10 @@
 
 <br>
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00C9A7&center=true&vCenter=true&width=600&lines=Systems+Engineer+%7C+x86+Assembly+to+Full+Stack;Building+Project+APEX+%E2%80%94+a+multi-agent+AI+OS;Open+to+Software+Engineering+Internships" />
+
+<br>
+
 <a href="https://linkedin.com/in/abdul-moeed-alvi-722467321">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
@@ -34,6 +38,12 @@ I'm a **BS Computer Science student (5th semester) at FAST-NUCES Islamabad**, gr
 - 🎯 Looking for **Software Engineering internships** — backend, systems, or AI/ML
 - 📍 Based in Islamabad, Pakistan — open to remote work worldwide
 - ⚡ Fun fact: my first "real" program rendered directly to VGA memory in x86 Assembly
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+
+</div>
 
 <br>
 
@@ -184,6 +194,31 @@ Focus: Systems programming, backend engineering, AI/ML fundamentals
 
 <br>
 
+## 🧊 3D Contribution Graph
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alvimalick-dot/alvimalick-dot/main/profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alvimalick-dot/alvimalick-dot/main/profile-3d-contrib/profile-season-animate.svg" />
+  <img src="https://raw.githubusercontent.com/alvimalick-dot/alvimalick-dot/main/profile-3d-contrib/profile-night-rainbow.svg" />
+</picture>
+
+<sub>Generated automatically via GitHub Actions — see setup note below</sub>
+
+</div>
+
+<br>
+
+## ⏱️ Weekly Coding Activity
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+<sub>Auto-updates weekly via WakaTime + GitHub Actions — see setup note below</sub>
+
+<br>
+
 ## 📫 Let's Connect
 
 <div align="center">
@@ -203,6 +238,31 @@ I'm actively looking for internship opportunities — feel free to reach out.
 <br>
 
 The snake graphic needs a small GitHub Action to generate itself. I've included a ready-made workflow file (<code>snake.yml</code>) alongside this README — just drop it into <code>.github/workflows/snake.yml</code> in your <code>alvimalick-dot/alvimalick-dot</code> repo, push, and it will run automatically and populate the image above within a few minutes.
+
+</details>
+
+<details>
+<summary><b>⚙️ One-time setup: enable the 3D contribution graph</b></summary>
+<br>
+
+Drop the included <code>contrib3d.yml</code> file into <code>.github/workflows/contrib3d.yml</code>. It commits the generated SVGs straight into your repo's <code>profile-3d-contrib/</code> folder, so no extra branch setup needed. After pushing, go to the <b>Actions</b> tab → <b>GitHub-Profile-3D-Contrib</b> → <b>Run workflow</b> once manually, then it updates itself daily.
+
+</details>
+
+<details>
+<summary><b>⚙️ One-time setup: enable the WakaTime coding stats</b></summary>
+<br>
+
+This one needs a free account first:
+
+1. Sign up at <a href="https://wakatime.com/">wakatime.com</a> (free plan is enough)
+2. Install the WakaTime extension for your code editor (VS Code, PyCharm, etc.) and log in — it silently tracks your coding time in the background
+3. Get your API key from <a href="https://wakatime.com/settings/account">wakatime.com/settings/account</a>
+4. In your <code>alvimalick-dot/alvimalick-dot</code> repo, go to <b>Settings → Secrets and variables → Actions</b>, and add two repository secrets:
+   - <code>WAKATIME_API_KEY</code> — your key from step 3
+   - <code>GH_TOKEN</code> — a personal access token with <code>repo</code> scope (create one at <a href="https://github.com/settings/tokens">github.com/settings/tokens</a>)
+5. Drop the included <code>waka.yml</code> file into <code>.github/workflows/waka.yml</code> and push
+6. Run it once manually from the <b>Actions</b> tab — it fills in the stats between the <code>&lt;!--START_SECTION:waka--&gt;</code> markers in your README automatically from then on
 
 </details>
 
